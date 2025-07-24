@@ -1,6 +1,6 @@
 {
   "name": "@fitness-pall/shared-dtos",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "DTO types for FitnessPall apps",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
