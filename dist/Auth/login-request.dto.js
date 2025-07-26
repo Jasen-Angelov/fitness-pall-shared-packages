@@ -23,3 +23,7 @@ __decorate([
     (0, class_validator_1.Length)(8, 128, { message: 'Password must be at least 8 characters' }),
     __metadata("design:type", String)
 ], LoginRequest.prototype, "password", void 0);
+__decorate([
+    (0, class_validator_1.IsBoolean)(),
+    __metadata("design:type", Boolean)
+], LoginRequest.prototype, "remember", void 0);
