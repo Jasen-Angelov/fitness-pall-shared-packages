@@ -18,3 +18,4 @@ __exportStar(require("./Users/user.dto"), exports);
 __exportStar(require("./Auth/login-request.dto"), exports);
 __exportStar(require("./Auth/login-response.dto"), exports);
 __exportStar(require("./Utility/error-response.dto"), exports);
+__exportStar(require("./Excersises/ExcersiseDto"), exports);
