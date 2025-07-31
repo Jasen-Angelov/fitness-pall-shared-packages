@@ -45,3 +45,7 @@ __decorate([
     (0, class_validator_1.IsIn)(['Изолиращо', 'Съставно']),
     __metadata("design:type", String)
 ], CreateExerciseRequest.prototype, "type", void 0);
+__decorate([
+    (0, class_validator_1.IsIn)([true, false]),
+    __metadata("design:type", Boolean)
+], CreateExerciseRequest.prototype, "fileUploaded", void 0);

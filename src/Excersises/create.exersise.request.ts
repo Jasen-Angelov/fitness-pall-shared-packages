@@ -32,4 +32,7 @@ export class CreateExerciseRequest {
     @IsOptional()
     @IsIn(['Изолиращо', 'Съставно'])
     type?: string;
+
+    @IsIn([true, false])
+    fileUploaded!: boolean;
 }

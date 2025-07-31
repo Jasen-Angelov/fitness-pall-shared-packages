@@ -5,4 +5,5 @@ export declare class CreateExerciseRequest {
     videoUrl?: string;
     muscleGroups: string[];
     type?: string;
+    fileUploaded: boolean;
 }
