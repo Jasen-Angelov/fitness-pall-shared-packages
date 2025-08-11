@@ -7,3 +7,4 @@ export * from './Utility/error-response.dto';
 export * from './Excersises/ExcersiseDto';
 export * from './Excersises/create.exersise.request';
 export * from './Utility/enlistment.dto'
+export * from './Workout/index'
