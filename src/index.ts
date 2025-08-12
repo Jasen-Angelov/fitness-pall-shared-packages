@@ -6,3 +6,4 @@ export * from './Excersises/ExcersiseDto';
 export * from './Excersises/create.exersise.request';
 export * from './Utility/enlistment.dto'
 export * from './Workout/workout.dto'
+export * from './Plans/plans.dto'

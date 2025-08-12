@@ -22,3 +22,4 @@ __exportStar(require("./Excersises/ExcersiseDto"), exports);
 __exportStar(require("./Excersises/create.exersise.request"), exports);
 __exportStar(require("./Utility/enlistment.dto"), exports);
 __exportStar(require("./Workout/workout.dto"), exports);
+__exportStar(require("./Plans/plans.dto"), exports);
