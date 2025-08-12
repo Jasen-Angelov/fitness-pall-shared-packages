@@ -1,3 +1,4 @@
+import { ExerciseDTO } from "../Excersises/ExcersiseDto";
 export interface WorkoutCreateRequest {
     name: string;
     notes?: string;
@@ -38,10 +39,7 @@ export interface WorkoutGroupDTO {
 }
 export interface ExerciseInGroupDTO {
     id: number;
-    exercise: {
-        id: string;
-        name: string;
-    };
+    exercise: ExerciseDTO;
     config: {
         repsMin: number;
         repsMax: number;
