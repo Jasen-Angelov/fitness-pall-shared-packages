@@ -30,3 +30,6 @@ __exportStar(require("./Program/GroupTemplateDTO"), exports);
 __exportStar(require("./Program/WorkoutTemplateDTO"), exports);
 __exportStar(require("./Program/CycleTemplateDTO"), exports);
 __exportStar(require("./Program/ProgramTemplateDTO"), exports);
+__exportStar(require("./Pagination/pagination.dto"), exports);
+__exportStar(require("./Clients/clients.dto"), exports);
+__exportStar(require("./Mesurments/measurements.dto"), exports);

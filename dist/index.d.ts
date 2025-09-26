@@ -14,3 +14,6 @@ export * from './Program/GroupTemplateDTO';
 export * from './Program/WorkoutTemplateDTO';
 export * from './Program/CycleTemplateDTO';
 export * from './Program/ProgramTemplateDTO';
+export * from './Pagination/pagination.dto';
+export * from './Clients/clients.dto';
+export * from './Mesurments/measurements.dto';
