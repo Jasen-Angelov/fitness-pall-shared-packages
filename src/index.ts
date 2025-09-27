@@ -20,3 +20,6 @@ export * from './Program/ProgramTemplateDTO';
 export * from './Pagination/pagination.dto';
 export * from './Clients/clients.dto';
 export * from './Mesurments/measurements.dto';
+
+export * from './Program/ProgramDTO';
+export * from './Program/ClientProgramDTO';

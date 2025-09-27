@@ -33,3 +33,5 @@ __exportStar(require("./Program/ProgramTemplateDTO"), exports);
 __exportStar(require("./Pagination/pagination.dto"), exports);
 __exportStar(require("./Clients/clients.dto"), exports);
 __exportStar(require("./Mesurments/measurements.dto"), exports);
+__exportStar(require("./Program/ProgramDTO"), exports);
+__exportStar(require("./Program/ClientProgramDTO"), exports);
