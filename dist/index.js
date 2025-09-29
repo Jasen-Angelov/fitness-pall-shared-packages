@@ -35,3 +35,9 @@ __exportStar(require("./Clients/clients.dto"), exports);
 __exportStar(require("./Mesurments/measurements.dto"), exports);
 __exportStar(require("./Program/ProgramDTO"), exports);
 __exportStar(require("./Program/ClientProgramDTO"), exports);
+// Prescriptions
+__exportStar(require("./Prescriptions/ClientExercisePrescriptionDTO"), exports);
+// Sessions / Scheduling
+__exportStar(require("./Sessions/TrainingSessionDTO"), exports);
+__exportStar(require("./Sessions/GenerateTrainingSessionsRequest"), exports);
+__exportStar(require("./Sessions/ResolvedSessionDTO"), exports); // optional, if you added it

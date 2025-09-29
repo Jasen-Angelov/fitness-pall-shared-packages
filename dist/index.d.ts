@@ -19,3 +19,7 @@ export * from './Clients/clients.dto';
 export * from './Mesurments/measurements.dto';
 export * from './Program/ProgramDTO';
 export * from './Program/ClientProgramDTO';
+export * from './Prescriptions/ClientExercisePrescriptionDTO';
+export * from './Sessions/TrainingSessionDTO';
+export * from './Sessions/GenerateTrainingSessionsRequest';
+export * from './Sessions/ResolvedSessionDTO';

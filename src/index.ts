@@ -23,3 +23,11 @@ export * from './Mesurments/measurements.dto';
 
 export * from './Program/ProgramDTO';
 export * from './Program/ClientProgramDTO';
+
+// Prescriptions
+export * from './Prescriptions/ClientExercisePrescriptionDTO';
+
+// Sessions / Scheduling
+export * from './Sessions/TrainingSessionDTO';
+export * from './Sessions/GenerateTrainingSessionsRequest';
+export * from './Sessions/ResolvedSessionDTO'; // optional, if you added it
