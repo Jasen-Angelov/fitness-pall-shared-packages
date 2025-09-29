@@ -13,7 +13,7 @@ export interface GenerateTrainingSessionsRequest {
     timeOfDay: string;
 
     /** How many weeks to expand */
-    spanWeeks: number;
+    spanWeeks?: number;
 
     /** e.g. 3 -> Mon/Wed/Fri default spread when `weekdays` is omitted */
     daysPerWeek?: number;
