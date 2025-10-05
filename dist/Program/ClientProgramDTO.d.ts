@@ -1,3 +1,4 @@
+import { ProgramDTO } from "./ProgramDTO";
 export type ProgramStatus = 'active' | 'paused' | 'completed' | 'cancelled';
 export interface ClientProgramAssignmentDTO {
     id: number;
@@ -18,4 +19,8 @@ export interface UpdateClientProgramRequest {
     status?: ProgramStatus;
     endAt?: string | null;
     notes?: string | null;
+}
+export interface AttachClientProgramResponse {
+    assignment: ClientProgramAssignmentDTO;
+    program: ProgramDTO;
 }
